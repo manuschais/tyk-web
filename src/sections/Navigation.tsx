@@ -62,7 +62,7 @@ const Navigation = () => {
               className="flex items-center gap-3 group"
             >
               <img
-                src="/images/logo-tyk.png"
+                src={`${import.meta.env.BASE_URL}images/logo-tyk.png`}
                 alt="TYK Logo"
                 className={`w-[100px] h-[100px] object-contain transition-all duration-300 ${
                   isScrolled ? 'brightness-100' : 'brightness-0 invert'
@@ -222,3 +222,4 @@ const Navigation = () => {
 };
 
 export default Navigation;
+

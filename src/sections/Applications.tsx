@@ -16,7 +16,7 @@ const Applications = () => {
       title: 'น้ำเสียจากฟาร์มปศุสัตว์',
       subtitle: 'Livestock Wastewater',
       description: 'เช่น การแยกมูลสัตว์ การแยกตะกอนจากระบบบำบัด การกำจัดสิ่งสกปรก',
-      image: '/images/app-livestock.jpg',
+      image: `${import.meta.env.BASE_URL}images/app-livestock.jpg`,
       color: 'from-green-500 to-emerald-600',
       examples: ['ฟาร์มหมู', 'ฟาร์มไก่', 'ฟาร์มวัว'],
     },
@@ -25,7 +25,7 @@ const Applications = () => {
       title: 'น้ำเสียจากอุตสาหกรรม',
       subtitle: 'Industrial Wastewater',
       description: 'เช่น การแยกตะกอนจากโรงงานแปรรูปอาหาร โรงงานอาหารทะเล การบำบัดน้ำทิ้งจากโรงงาน',
-      image: '/images/app-industrial.jpg',
+      image: `${import.meta.env.BASE_URL}images/app-industrial.jpg`,
       color: 'from-blue-500 to-blue-600',
       examples: ['อุตสาหกรรมอาหาร', 'อุตสาหกรรมเครื่องดื่ม', 'โรงงานแปรรูป'],
     },
@@ -34,7 +34,7 @@ const Applications = () => {
       title: 'น้ำเสียจากเทศบาล',
       subtitle: 'Municipal Wastewater',
       description: 'เช่น การขึ้นรูปและแยกตะกอนจากระบบบำบัดน้ำเสียของเทศบาล',
-      image: '/images/app-municipal.jpg',
+      image: `${import.meta.env.BASE_URL}images/app-municipal.jpg`,
       color: 'from-cyan-500 to-teal-600',
       examples: ['ระบบบำบัดน้ำเสีย', 'โรงบำบัดน้ำเสีย', 'ระบบสุขาภิบาล'],
     },
@@ -216,3 +216,4 @@ const Applications = () => {
 };
 
 export default Applications;
+

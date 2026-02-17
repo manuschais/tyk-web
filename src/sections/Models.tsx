@@ -200,7 +200,7 @@ const Models = () => {
                     </DialogHeader>
                     <div className="space-y-4 mt-4">
                       <img
-                        src="/images/about-machine.jpg"
+                        src={`${import.meta.env.BASE_URL}images/about-machine.jpg`}
                         alt={model.model}
                         className="w-full h-48 object-cover rounded-xl"
                       />
@@ -277,3 +277,4 @@ const Models = () => {
 };
 
 export default Models;
+

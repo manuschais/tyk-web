@@ -24,7 +24,7 @@ const Features = () => {
         ? 'KDS separator ไม่จำเป็นต้องใช้พื้นที่กว้าง และมีเสียงและแรงสั่นสะเทือนน้อยมาก สามารถออกแบบและติดตั้งในพื้นที่เดิมของลูกค้าได้'
         : 'The KDS separator does not require a wide space and has very low noise and vibration. It can be designed and installed in the client\'s existing space.',
       icon: Settings,
-      image: '/images/feature-install.jpg',
+      image: `${import.meta.env.BASE_URL}images/feature-install.jpg`,
       color: 'from-blue-dark to-blue-light',
       points: isThai 
         ? ['ใช้พื้นที่ 1/3 ของเครื่องแบบดั้งเดิม', 'เสียงและแรงสั่นต่ำ', 'ติดตั้งในพื้นที่จำกัดได้']
@@ -38,7 +38,7 @@ const Features = () => {
         ? 'กลไกการทำความสะอาดตัวเองที่เป็นเอกลักษณ์ของ Kendensha ป้องกันการอุดตันบนตะแกรง ไม่จำเป็นต้องล้างย้อนกลับ'
         : 'Kendensha\'s unique self-cleaning mechanism prevents clogging on the screen, so backwash is not required.',
       icon: Shield,
-      image: '/images/feature-operation.jpg',
+      image: `${import.meta.env.BASE_URL}images/feature-operation.jpg`,
       color: 'from-blue-light to-cyan-500',
       points: isThai
         ? ['ไม่ต้องล้างน้ำย้อนกลับ', 'ประมวลผลเสถียรต่อเนื่อง', 'ลดการสึกหรอของอะไหล่']
@@ -52,7 +52,7 @@ const Features = () => {
         ? 'ปรับให้เข้ากับคุณสมบัติตะกอนที่หลากหลายได้อย่างง่ายดาย โดยการปรับความเร็วการหมุนของแผ่นรูปไข่และแรงกดของแผ่นกด'
         : 'Easily adjustable to accommodate various sludge properties by adjusting the rotational speed of the oval plates and the pressure plate.',
       icon: Sliders,
-      image: '/images/about-machine.jpg',
+      image: `${import.meta.env.BASE_URL}images/about-machine.jpg`,
       color: 'from-cyan-500 to-teal-500',
       points: isThai
         ? ['ปรับความเร็วรอบได้', 'ควบคุมความแห้งของตะกอน', 'รองรับหลายประเภทน้ำเสีย']
@@ -66,7 +66,7 @@ const Features = () => {
         ? 'อะไหล่ที่สึกหรอสามารถเปลี่ยนได้โดยการแลกเปลี่ยนโมดูลทั้งชิ้น ทำให้สามารถกู้คืนได้อย่างรวดเร็ว'
         : 'Worn parts can be replaced by exchanging the entire module, enabling quick restoration.',
       icon: Wrench,
-      image: '/images/feature-install.jpg',
+      image: `${import.meta.env.BASE_URL}images/feature-install.jpg`,
       color: 'from-teal-500 to-green-500',
       points: isThai
         ? ['เปลี่ยนอะไหล่เป็นโมดูล', 'อะไหล่มาตรฐานราคาถูก', 'ซ่อมบำรุงรวดเร็ว']
@@ -261,3 +261,4 @@ const Features = () => {
 };
 
 export default Features;
+

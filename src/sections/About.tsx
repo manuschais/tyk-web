@@ -142,7 +142,7 @@ const About = () => {
           <div ref={imageRef} className="relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/images/about-machine.jpg"
+                src={`${import.meta.env.BASE_URL}images/about-machine.jpg`}
                 alt="SLIT SAVER Machine"
                 className="w-full h-auto object-cover"
               />
@@ -258,3 +258,4 @@ const About = () => {
 };
 
 export default About;
+

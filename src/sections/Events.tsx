@@ -30,7 +30,7 @@ const Events = () => {
         { icon: Globe, value: '200+', label: 'แบรนด์ทั่วโลก' },
         { icon: Award, value: 'Top', label: 'นวัตกรรมน้ำ' },
       ],
-      image: '/images/app-municipal.jpg',
+      image: `${import.meta.env.BASE_URL}images/app-municipal.jpg`,
       status: 'past', // 'upcoming' | 'ongoing' | 'past'
     },
   ];
@@ -286,3 +286,4 @@ const Events = () => {
 };
 
 export default Events;
+

@@ -181,7 +181,7 @@ const Hero = () => {
         {/* Logo Badge */}
         <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-8">
           <img
-            src="/images/logo-tyk.png"
+            src={`${import.meta.env.BASE_URL}images/logo-tyk.png`}
             alt="TYK Logo"
             className="w-8 h-8 object-contain brightness-0 invert"
           />
@@ -271,3 +271,4 @@ const Hero = () => {
 };
 
 export default Hero;
+

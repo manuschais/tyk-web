@@ -42,7 +42,7 @@ const Portfolio = () => {
       location: 'จ.อยุธยา',
       description: 'ระบบบำบัดน้ำเสียจากกระบวนการผลิตน้ำประปา',
       descriptionEn: 'Wastewater treatment system from water production process',
-      image: '/images/app-municipal.jpg',
+      image: `${import.meta.env.BASE_URL}images/app-municipal.jpg`,
     },
     {
       id: 2,
@@ -52,7 +52,7 @@ const Portfolio = () => {
       location: 'จ.ระนอง',
       description: 'ระบบแยกตะกอนจากน้ำเสียในโรงงานผลิตน้ำประปา',
       descriptionEn: 'Sludge separation system from wastewater in water production plant',
-      image: '/images/app-municipal.jpg',
+      image: `${import.meta.env.BASE_URL}images/app-municipal.jpg`,
     },
     {
       id: 3,
@@ -62,7 +62,7 @@ const Portfolio = () => {
       location: 'ชลบุรี',
       description: 'ระบบบำบัดน้ำเสียจากกระบวนการผลิตชิ้นส่วนยานยนต์',
       descriptionEn: 'Wastewater treatment from automotive parts manufacturing',
-      image: '/images/app-industrial.jpg',
+      image: `${import.meta.env.BASE_URL}images/app-industrial.jpg`,
     },
     {
       id: 4,
@@ -72,7 +72,7 @@ const Portfolio = () => {
       location: 'บางปะอิน, จ.อยุธยา',
       description: 'ระบบแยกตะกอนจากน้ำเสียในกระบวนการผลิตไบโอดีเซล',
       descriptionEn: 'Sludge separation from biodiesel production wastewater',
-      image: '/images/app-industrial.jpg',
+      image: `${import.meta.env.BASE_URL}images/app-industrial.jpg`,
     },
     {
       id: 5,
@@ -82,7 +82,7 @@ const Portfolio = () => {
       location: 'กรุงเทพฯ',
       description: 'ระบบบำบัดน้ำเสียจากโรงงานผลิตคุกกี้และขนมอบ',
       descriptionEn: 'Wastewater treatment from cookie and bakery production',
-      image: '/images/app-livestock.jpg',
+      image: `${import.meta.env.BASE_URL}images/app-livestock.jpg`,
     },
     {
       id: 6,
@@ -92,7 +92,7 @@ const Portfolio = () => {
       location: 'กรุงเทพฯ',
       description: 'ระบบบำบัดน้ำเสียจากโรงงานชุบอโนไดซ์และขึ้นรูป CNC',
       descriptionEn: 'Wastewater treatment from anodizing and CNC machining',
-      image: '/images/app-industrial.jpg',
+      image: `${import.meta.env.BASE_URL}images/app-industrial.jpg`,
     },
     {
       id: 7,
@@ -102,7 +102,7 @@ const Portfolio = () => {
       location: 'กรุงเทพฯ',
       description: 'ระบบบำบัดน้ำเสียจากการผลิตสบู่และสารซักฟอก',
       descriptionEn: 'Wastewater treatment from soap and detergent production',
-      image: '/images/app-industrial.jpg',
+      image: `${import.meta.env.BASE_URL}images/app-industrial.jpg`,
     },
     {
       id: 8,
@@ -112,7 +112,7 @@ const Portfolio = () => {
       location: 'กรุงเทพฯ',
       description: 'ระบบบำบัดน้ำเสียจากโรงงานแปรรูปอาหารทะเลและอาหารแช่แข็ง',
       descriptionEn: 'Wastewater treatment from seafood and frozen food processing',
-      image: '/images/app-livestock.jpg',
+      image: `${import.meta.env.BASE_URL}images/app-livestock.jpg`,
     },
     {
       id: 9,
@@ -122,7 +122,7 @@ const Portfolio = () => {
       location: 'กรุงเทพฯ',
       description: 'ระบบบำบัดน้ำเสียจากโรงงานผลิตบะหมี่กึ่งสำเร็จรูป',
       descriptionEn: 'Wastewater treatment from instant noodle production',
-      image: '/images/app-livestock.jpg',
+      image: `${import.meta.env.BASE_URL}images/app-livestock.jpg`,
     },
     {
       id: 10,
@@ -132,7 +132,7 @@ const Portfolio = () => {
       location: 'กรุงเทพฯ',
       description: 'ระบบบำบัดน้ำเสียจากโรงงานผลิตเครื่องดนตรี',
       descriptionEn: 'Wastewater treatment from musical instrument manufacturing',
-      image: '/images/app-industrial.jpg',
+      image: `${import.meta.env.BASE_URL}images/app-industrial.jpg`,
     },
   ];
 
@@ -308,3 +308,4 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
